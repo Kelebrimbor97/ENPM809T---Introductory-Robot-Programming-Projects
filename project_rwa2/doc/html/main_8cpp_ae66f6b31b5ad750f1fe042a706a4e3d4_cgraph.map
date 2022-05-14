@@ -1,0 +1,24 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classrwa2_1_1_mouse.html#abbcc99c41fd073426fdfd790f947956e" title="rwa2::Mouse::display\l_walls" alt="" coords="129,5,275,47"/>
+<area shape="rect" id="node4" href="$class_a_p_i.html#a25a489520b0b69b7a0b1870cf350f654" title="API::setText" alt="" coords="393,70,489,97"/>
+<area shape="rect" id="node5" href="$classrwa2_1_1_mouse.html#a6c4e22fb4f67a100c011b634508a5c07" title="gets the current location of the mouse " alt="" coords="129,123,275,164"/>
+<area shape="rect" id="node6" href="$class_a_p_i.html#a26cc8c35d6c492fc782647b7e347525e" title="API::clearAllColor" alt="" coords="139,189,265,215"/>
+<area shape="rect" id="node7" href="$class_a_p_i.html#aee5aaa673b406ddaab3310fcb3a51d83" title="API::setColor" alt="" coords="391,261,492,287"/>
+<area shape="rect" id="node8" href="$classrwa2_1_1_mouse.html#a0ee088e89bdbb609091679ca66f98d37" title="checks walls and updates them in the maze " alt="" coords="351,421,532,447"/>
+<area shape="rect" id="node12" href="$classrwa2_1_1_mouse.html#a4b441e30f6c9d446b901f9b21ba104df" title="Implement DFS to compute a path between 2 nodes in a maze. " alt="" coords="111,341,293,367"/>
+<area shape="rect" id="node14" href="$classrwa2_1_1_mouse.html#ab9f225398c8ec07767559a47f2070755" title="gives the dfs path to be followed by the mouse " alt="" coords="125,391,279,418"/>
+<area shape="rect" id="node15" href="$classrwa2_1_1_mouse.html#a42834070b0bc9cee1993b745b85c2e29" title="highlights the path " alt="" coords="104,239,300,266"/>
+<area shape="rect" id="node16" href="$classrwa2_1_1_mouse.html#a771abb2496a461ab78fa9d18fa8273ed" title="makes the mouse move " alt="" coords="130,493,274,535"/>
+<area shape="rect" id="node23" href="$classrwa2_1_1_mouse.html#a3cb2cdc76a136c392e6a635adcfd2075" title="clear visited vector list " alt="" coords="135,559,269,600"/>
+<area shape="rect" id="node3" href="$class_a_p_i.html#a9b0b04cf1cfc62ae6f5eef1ac1729eb2" title="API::setWall" alt="" coords="600,158,696,185"/>
+<area shape="rect" id="node9" href="$class_a_p_i.html#a3452beb4232e7960ffdb8c0d4a1f0d30" title="API::wallFront" alt="" coords="595,385,701,411"/>
+<area shape="rect" id="node10" href="$class_a_p_i.html#acdc812c3acadeb2890691e6c95a89816" title="API::wallRight" alt="" coords="595,435,701,462"/>
+<area shape="rect" id="node11" href="$class_a_p_i.html#a43b1e7f9b91aba577078af681c7807b3" title="API::wallLeft" alt="" coords="599,334,697,361"/>
+<area shape="rect" id="node13" href="$classrwa2_1_1_mouse.html#a069b6c1433777dd7d2709814aa418463" title="checks if given element is in the visited list " alt="" coords="371,333,512,375"/>
+<area shape="rect" id="node17" href="$classrwa2_1_1_mouse.html#afc6e0d56e3a777c05efa3929eb256e0a" title="Make the mouse move forward. " alt="" coords="348,587,535,614"/>
+<area shape="rect" id="node19" href="$classrwa2_1_1_mouse.html#ac929127d86fc4a41d1e216968b1dae20" title="Make the mouse rotate 90 deg CW. " alt="" coords="362,486,521,513"/>
+<area shape="rect" id="node21" href="$classrwa2_1_1_mouse.html#a5748e94e740432c334d15364fb476919" title="Make the mouse rotate 90 deg CCW. " alt="" coords="365,537,517,563"/>
+<area shape="rect" id="node18" href="$class_a_p_i.html#a25ace37c644938df32f6dae69abfe052" title="API::moveForward" alt="" coords="583,587,713,614"/>
+<area shape="rect" id="node20" href="$class_a_p_i.html#a4b5aaf5e3e061474d84191ab9ee05d63" title="API::turnRight" alt="" coords="595,486,701,513"/>
+<area shape="rect" id="node22" href="$class_a_p_i.html#af04ee9209026f2a6e1c502e6c900573f" title="API::turnLeft" alt="" coords="600,537,696,563"/>
+</map>

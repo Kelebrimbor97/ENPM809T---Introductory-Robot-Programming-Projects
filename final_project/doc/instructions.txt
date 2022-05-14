@@ -1,0 +1,11 @@
+﻿Steps to Run this Package
+
+1. Copy the package to the src folder of your catkin workspace
+2. Build/make the catkin package
+3. Source the ws and launch the files with the command
+
+roslaunch final_project multiple_robots.launch
+
+4. Open a new terminal and source the ws and run the command
+
+rosrun final_project final_project_node

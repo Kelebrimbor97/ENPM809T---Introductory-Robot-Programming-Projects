@@ -1,0 +1,187 @@
+\hypertarget{main_8cpp}{}\section{src/main.cpp File Reference}
+\label{main_8cpp}\index{src/main.\+cpp@{src/main.\+cpp}}
+
+
+This is our \hyperlink{main_8cpp}{main.\+cpp} code for the Final Project of the class E\+N\+P\+M809Y Fall 2021.  
+
+
+{\ttfamily \#include $<$actionlib/client/simple\+\_\+action\+\_\+client.\+h$>$}\newline
+{\ttfamily \#include $<$fiducial\+\_\+msgs/\+Fiducial\+Transform\+Array.\+h$>$}\newline
+{\ttfamily \#include $<$geometry\+\_\+msgs/\+Twist.\+h$>$}\newline
+{\ttfamily \#include $<$geometry\+\_\+msgs/\+Pose\+Stamped.\+h$>$}\newline
+{\ttfamily \#include $<$move\+\_\+base\+\_\+msgs/\+Move\+Base\+Action.\+h$>$}\newline
+{\ttfamily \#include $<$tf2/\+Linear\+Math/\+Quaternion.\+h$>$}\newline
+{\ttfamily \#include $<$tf2\+\_\+ros/transform\+\_\+broadcaster.\+h$>$}\newline
+{\ttfamily \#include $<$tf2\+\_\+ros/transform\+\_\+listener.\+h$>$}\newline
+{\ttfamily \#include $<$ros/ros.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef actionlib\+::\+Simple\+Action\+Client$<$ move\+\_\+base\+\_\+msgs\+::\+Move\+Base\+Action $>$ \hyperlink{main_8cpp_a21e20cc0b6656ae897b3cbb969b93241}{Move\+Base\+Client}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a138486432361b8ebec9927ccad032d0a}{broadcast} (const fiducial\+\_\+msgs\+::\+Fiducial\+Transform\+Array\+::\+Const\+Ptr \&msg)
+\begin{DoxyCompactList}\small\item\em The main broadcaster function to get the aruco marker locations with respect to the camera frame. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_aa2baabcf8bc6fb2727c0aade0c1b8efe}{listen} (tf2\+\_\+ros\+::\+Buffer \&tf\+Buffer)
+\begin{DoxyCompactList}\small\item\em listener function to convert the aruco marker in the frame of world from the frame of camera \end{DoxyCompactList}\item 
+int \hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Main function for the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_a7441ef0865bcb3db9b8064dd7375c1ea}{id} = -\/1
+\item 
+bool \hyperlink{main_8cpp_ac301213cdf48a283cf8d2f39decc99ff}{marker\+\_\+detected} = false
+\item 
+double \hyperlink{main_8cpp_aec679bef2e4d324b3e00a10e4c0c319d}{id\+\_\+x} \{0\}
+\item 
+double \hyperlink{main_8cpp_a0d2fe1c0bfb2d2f23ba982237b6df2ba}{id\+\_\+y} \{0\}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is our \hyperlink{main_8cpp}{main.\+cpp} code for the Final Project of the class E\+N\+P\+M809Y Fall 2021. 
+
+\begin{DoxyAuthor}{Author}
+Nishd Kulkarni, Sparsh Jaiswal, Divyansh Agarwal (\href{mailto:nkulkar2@umd.edu}{\tt nkulkar2@umd.\+edu}, \href{mailto:sjaiswal@umd.edu}{\tt sjaiswal@umd.\+edu}, \href{mailto:dagrawa1@umd.edu}{\tt dagrawa1@umd.\+edu}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2021-\/12-\/14
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{main_8cpp_a21e20cc0b6656ae897b3cbb969b93241}\label{main_8cpp_a21e20cc0b6656ae897b3cbb969b93241}} 
+\index{main.\+cpp@{main.\+cpp}!Move\+Base\+Client@{Move\+Base\+Client}}
+\index{Move\+Base\+Client@{Move\+Base\+Client}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Move\+Base\+Client}{MoveBaseClient}}
+{\footnotesize\ttfamily typedef actionlib\+::\+Simple\+Action\+Client$<$move\+\_\+base\+\_\+msgs\+::\+Move\+Base\+Action$>$ \hyperlink{main_8cpp_a21e20cc0b6656ae897b3cbb969b93241}{Move\+Base\+Client}}
+
+
+
+Definition at line 21 of file main.\+cpp.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a138486432361b8ebec9927ccad032d0a}\label{main_8cpp_a138486432361b8ebec9927ccad032d0a}} 
+\index{main.\+cpp@{main.\+cpp}!broadcast@{broadcast}}
+\index{broadcast@{broadcast}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{broadcast()}{broadcast()}}
+{\footnotesize\ttfamily void broadcast (\begin{DoxyParamCaption}\item[{const fiducial\+\_\+msgs\+::\+Fiducial\+Transform\+Array\+::\+Const\+Ptr \&}]{msg }\end{DoxyParamCaption})}
+
+
+
+The main broadcaster function to get the aruco marker locations with respect to the camera frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 33 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aa2baabcf8bc6fb2727c0aade0c1b8efe}\label{main_8cpp_aa2baabcf8bc6fb2727c0aade0c1b8efe}} 
+\index{main.\+cpp@{main.\+cpp}!listen@{listen}}
+\index{listen@{listen}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{listen()}{listen()}}
+{\footnotesize\ttfamily void listen (\begin{DoxyParamCaption}\item[{tf2\+\_\+ros\+::\+Buffer \&}]{tf\+Buffer }\end{DoxyParamCaption})}
+
+
+
+listener function to convert the aruco marker in the frame of world from the frame of camera 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tf\+Buffer} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 64 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Main function for the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & \\
+\hline
+{\em argv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 97 of file main.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_a7441ef0865bcb3db9b8064dd7375c1ea}\label{main_8cpp_a7441ef0865bcb3db9b8064dd7375c1ea}} 
+\index{main.\+cpp@{main.\+cpp}!id@{id}}
+\index{id@{id}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int id = -\/1}
+
+
+
+Definition at line 23 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_aec679bef2e4d324b3e00a10e4c0c319d}\label{main_8cpp_aec679bef2e4d324b3e00a10e4c0c319d}} 
+\index{main.\+cpp@{main.\+cpp}!id\+\_\+x@{id\+\_\+x}}
+\index{id\+\_\+x@{id\+\_\+x}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{id\+\_\+x}{id\_x}}
+{\footnotesize\ttfamily double id\+\_\+x \{0\}}
+
+
+
+Definition at line 25 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a0d2fe1c0bfb2d2f23ba982237b6df2ba}\label{main_8cpp_a0d2fe1c0bfb2d2f23ba982237b6df2ba}} 
+\index{main.\+cpp@{main.\+cpp}!id\+\_\+y@{id\+\_\+y}}
+\index{id\+\_\+y@{id\+\_\+y}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{id\+\_\+y}{id\_y}}
+{\footnotesize\ttfamily double id\+\_\+y \{0\}}
+
+
+
+Definition at line 26 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ac301213cdf48a283cf8d2f39decc99ff}\label{main_8cpp_ac301213cdf48a283cf8d2f39decc99ff}} 
+\index{main.\+cpp@{main.\+cpp}!marker\+\_\+detected@{marker\+\_\+detected}}
+\index{marker\+\_\+detected@{marker\+\_\+detected}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{marker\+\_\+detected}{marker\_detected}}
+{\footnotesize\ttfamily bool marker\+\_\+detected = false}
+
+
+
+Definition at line 24 of file main.\+cpp.
+
