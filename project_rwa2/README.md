@@ -10,5 +10,4 @@ The running instructions can be found in the file 'INSTRUCTIONS.txt'
 
 
 
-https://user-images.githubusercontent.com/35636842/168451269-2577039f-dc8b-46ae-b46b-354d87765fcf.mp4
-
+https://user-images.githubusercontent.com/35636842/168451272-ccf508e5-70b1-4e24-adc0-b9ec777acd10.mp4
