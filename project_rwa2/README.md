@@ -2,7 +2,7 @@
 
 This project aims to solev mazes using the Micromouse Simulator found <a href="https://github.com/mackorone/mms" target="_blank">here</a> .
 
-##Running Instructions
+## Running Instructions
 
 The running instructions can be found in the file 'INSTRUCTIONS.txt'
 
