@@ -6,7 +6,7 @@ This repository includes the submissions for the class ENPM809Y - Introductory R
 
 The Depth First Search algorithm is implemented to simulate a maze solving mouse robot. The problem statement was inspired by the <a href="https://github.com/mackorone/mms" target="_blank">MicroMouse Simulator</a>.
 
-![mms_AdobeExpress](https://user-images.githubusercontent.com/35636842/217377428-67bad23f-1fa1-40e2-bcfe-6162c974cda0.gif)
+![](https://user-images.githubusercontent.com/35636842/217377428-67bad23f-1fa1-40e2-bcfe-6162c974cda0.gif)
 
 ##Search & Rescue Robots
 
